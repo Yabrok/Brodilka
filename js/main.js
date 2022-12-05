@@ -40,7 +40,7 @@ elForm = addEventListener('submit', function (evt) {
 
     if (elInput.value <= 0 || isNaN(elInput.value)) {
       elAlert.textContent = "0 dan baland son kiriting - son kiriting";
-      elResult4.textContent = 'Null';
+      elResult.textContent = 'Null';
       elResult2.textContent = 'Null';
       elResult3.textContent = 'Null';
       elResult4.textContent = 'Null';
